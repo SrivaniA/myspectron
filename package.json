@@ -1,0 +1,29 @@
+{
+  "name": "myspectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "spectron": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "electron": "^4.1.0"
+  },
+  "scripts": {
+    "test": "electron.",
+    "test:e2e": "./node_modules/mocha/bin/mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sri1987/myspectron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sri1987/myspectron/issues"
+  },
+  "homepage": "https://github.com/sri1987/myspectron#readme"
+}
