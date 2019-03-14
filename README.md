@@ -1,1 +1,1 @@
-# use to run uitests for spectron
+# run tests using spectron
